@@ -17,12 +17,6 @@
 
       event = $.event.fix(event);
 
-      if (touches.length == 1) {
-        startX = touches[0].pageX;
-        startY = touches[0].pageY;
-        this.addEventListener('touchmove', onTouchMove, false);
-      }
-
       function cancelTouch() {
         that.removeEventListener('touchmove', onTouchMove);
         startX = startY = null;
@@ -48,6 +42,12 @@
         event.type = "swipe";
         args.unshift(event, deltaX, deltaY); // add back the new event to the front of the arguments with the delatas
         return ($.event.dispatch || $.event.handle).apply(that, args);
+      }
+
+      if (touches.length === 1) {
+        startX = touches[0].pageX;
+        startY = touches[0].pageY;
+        this.addEventListener('touchmove', onTouchMove, false);
       }
     }
   };
