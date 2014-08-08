@@ -1,0 +1,25 @@
+{
+  "name": "jq-swipe",
+  "main": "jq-swipe.js",
+  "version": "1.1.0",
+  "authors": [
+    "Yair Even Or <vsync.design@gmail.com>",
+    "Michał Jezierski <ambinanitelo@gmail.com>"
+  ],
+  "description": "a very simple jquery swipe plugin",
+  "keywords": [
+    "swipe",
+    "touch",
+    "jquery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/msn0/jq-swipe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
