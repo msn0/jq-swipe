@@ -1,4 +1,4 @@
-jqSwipe
+jq-swipe
 ========
 
 Adds minimal swipe special event for touch-enabled devices.
