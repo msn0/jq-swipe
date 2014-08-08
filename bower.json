@@ -1,6 +1,6 @@
 {
   "name": "jq-swipe",
-  "main": "jq-swipe.js",
+  "main": "dist/jq-swipe.min.js",
   "version": "1.1.0",
   "authors": [
     "Yair Even Or <vsync.design@gmail.com>",
