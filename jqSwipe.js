@@ -1,11 +1,4 @@
-/**
- * jQuery Plugin to add basic "swipe" support on touch-enabled devices
- *
- * @author Yair Even Or
- * @version 1.0.0 (March 20, 2013)
- */
 (function ($) {
-  //if( 'ontouchstart' in document.documentElement )
   $.event.special.swipe = {
     setup: function () {
       $(this).bind('touchstart', $.event.special.swipe.handler);
@@ -16,7 +9,7 @@
     },
 
     handler: function (event) {
-      var args = [].slice.call(arguments, 1), // clone arguments array, remove original event from cloned array
+      var args = [].slice.call(arguments, 1),
         touches = event.originalEvent.touches,
         startX, startY,
         deltaX = 0, deltaY = 0,
