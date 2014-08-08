@@ -1,0 +1,18 @@
+{
+  "name": "jq-swipe",
+  "version": "1.0.1",
+  "description": "a very simple jquery swipe plugin",
+  "authors": [
+    "Yair Even Or <vsync.design@gmail.com>",
+    "Michał Jezierski <ambinanitelo@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:msn0/jq-swipe.git"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}
